@@ -1,0 +1,21 @@
+{
+  "name": "next-workers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "next": "^9.0.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "jimp": "^0.6.4",
+    "react-ssr-prepass": "^1.0.5"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next --version && next build && wrangler build"
+  },
+  "author": "",
+  "license": "ISC"
+}
